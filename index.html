@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialogues Restaurants</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-800 text-white font-bold">
+  <!-- 1. Header -->
+  <header class="bg-gray-800 shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold text-amber-400">
+        Dialogues Restaurants
+      </div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#menu" class="hover:text-amber-300">Menu</a>
+        <a href="#about" class="hover:text-amber-300">About</a>
+        <a href="#specials" class="hover:text-amber-300">Specials</a>
+        <a href="#contact" class="hover:text-amber-300">Contact</a>
+      </nav>
+      <a href="#order"
+        class="bg-amber-400 text-gray-900 px-4 py-2 rounded-full hover:bg-amber-300 font-semibold hidden md:inline-block">
+        Order Now</a>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section class="bg-cover bg-center h-screen flex items-center justify-center text-center"
+    style="background-image: url(/src/img/chef-white-uniform-is-plating-food-restaurant-kitchen_36682-218021.avif)" ;>
+    <div class="bg-black bg-opacity-60 p-10 rounded-xl">
+      <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4">
+        Welcome to Dialogues Restaurants
+      </h1>
+      <p class="text-lg md:text-xl text-gray-300 mb-6">
+        Crafted with love, served with flavor.
+      </p>
+      <a href="#menu"
+        class="bg-amber-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-amber-300 transition">View
+        Menu</a>
+    </div>
+  </section>
+
+  <!-- 3. Menu Highlights -->
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-10">Food</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/stek.avif" alt="Grilled Ribeye Steak" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Grilled Ribeye Steak</h3>
+          <p class="text-gray-400">
+            Juicy premium ribeye grilled to perfection, served with garlic
+            butter, rosemary potatoes, and seasonal vegetables.
+          </p>
+          <h2>25.00$</h2>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/salmon.jpg" alt="Pan-Seared Salmon" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Pan-Seared Salmon</h3>
+          <p class="text-gray-400">
+            Fresh Norwegian salmon fillet with lemon dill sauce, on a bed of
+            wild rice and asparagus.
+          </p>
+          <h2>22.00$</h2>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-xl transition">
+          <img src="/src/img/Chicken Alfredo Fettuccine.webp" alt="Chicken Alfredo Fettuccine"
+            class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">
+            Chicken Alfredo Fettuccine
+          </h3>
+          <p class="text-gray-400">
+            Tender chicken breast in creamy Alfredo sauce over fettuccine,
+            topped with parmesan and parsley.
+          </p>
+          <h2>18.50$</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <!-- <h2 class="text-3xl font-bold text-amber-400 mb-10">Our Favorites</h2> -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Lamb Shank with Red Wine Sauce.jpg" alt="Lamb Shank with Red Wine Sauce"
+            class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">
+            Lamb Shank with Red Wine Sauce
+          </h3>
+          <p class="text-gray-400">
+            Slow-braised lamb shank served with mashed potatoes and sautéed
+            greens.
+          </p>
+          <h3>$30.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Thai Green Curry Chicken.jpg" alt="Thai Green Curry Chicken" />
+          <p class="text-gray-400" Spicy and aromatic curry with tender chicken, bamboo shoots, andThai herbs in coconut
+            milk.></p>
+            <h3 class="text-xl font-semibold mb-2">Thai Green Curry Chicken</h3>
+          <h3>$16.00</h3>
+          
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Beef Bulgogi Rice Bowl.jpg" alt="Beef Bulgogi Rice Bowl" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Beef Bulgogi Rice Bowl</h3>
+          <p class="text-gray-400">
+            Korean-style marinated beef served over jasmine rice with kimchi
+            and a fried egg.
+          </p>
+          <h3>$14.00</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-10">
+       Health Food
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Caesar Salad Supreme.jpg" alt="Caesar Salad Supreme" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Caesar Salad Supreme</h3>
+          <p class="text-gray-400">
+            Crisp romaine, creamy Caesar dressing, croutons, and shaved
+            parmesan. Add grilled chicken or shrimp.
+          </p>
+          <h3>$15.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Caprese Salad.webp" alt="Caprese Salad" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Caprese Salad</h3>
+          <p class="text-gray-400">
+            Sliced mozzarella, ripe tomatoes, and fresh basil drizzled with
+            balsamic glaze.
+          </p>
+          <h3>$12.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/1.jpg" alt="Shrimp Cocktail" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Shrimp Cocktail</h3>
+          <p class="text-gray-400">
+            Chilled shrimp served with a tangy cocktail sauce and lemon
+            wedges.
+          </p>
+          <h3>$120.00</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <!-- <h2 class="text-3xl font-bold text-amber-400 mb-10">Our Favorites</h2> -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Stuffed Mushrooms.jpg" alt="Stuffed Mushrooms" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Stuffed Mushrooms</h3>
+          <p class="text-gray-400">
+            Button mushrooms filled with herb cream cheese and baked to golden
+            perfection.
+          </p>
+          <h3>$10.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Avocado Tuna Tartare.avif" alt="Avocado Tuna Tartare" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Avocado Tuna Tartare</h3>
+          <p class="text-gray-400">
+            Diced tuna with avocado, sesame, and soy dressing, served with
+            wonton crisps.
+          </p>
+          <h3>$18.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/French Onion Soup.png" alt="French Onion Soup" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">French Onion Soup</h3>
+          <p class="text-gray-400">
+            Rich beef broth with caramelized onions, topped with toasted
+            baguette and melted gruyère.
+          </p>
+          <h3>$13.00</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-10">
+        Cake & Drink
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Molten Lava Cake.avif" alt="Molten Lava Cake" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Molten Lava Cake</h3>
+          <p class="text-gray-400">
+            Warm chocolate cake with a gooey center, served with vanilla ice
+            cream.
+          </p>
+          <h3>$8.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Classic Tiramisu.jpg" alt="Classic Tiramisu" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Classic Tiramisu</h3>
+          <p class="text-gray-400">
+            Layered Italian dessert with espresso-soaked ladyfingers,
+            mascarpone, and cocoa.
+          </p>
+          <h3>$7.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Cheesecake with Berry Compote.jpg" alt="Cheesecake with Berry Compote"
+            class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">
+            Cheesecake with Berry Compote
+          </h3>
+          <p class="text-gray-400"></p>
+          <h3>$59.99</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <!-- <h2 class="text-3xl font-bold text-amber-400 mb-10">Our Favorites</h2> -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Mango Sticky Rice.webp" alt="Mango Sticky Rice" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Mango Sticky Rice</h3>
+          <p class="text-gray-400">
+            Thai dessert of sweet sticky rice with coconut cream and fresh
+            mango
+          </p>
+          <h3>$12.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Iced Caramel Macchiato.jpg" alt="Iced Caramel Macchiato" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Iced Caramel Macchiato</h3>
+          <p class="text-gray-400">
+            Espresso, milk, and caramel syrup served over ice – sweet and
+            bold.
+          </p>
+          <h3>$5.00</h3>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <img src="/src/img/Fresh Fruit Smoothie.jpg" alt="Fresh Fruit Smoothie" class="rounded-lg mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Fresh Fruit Smoothie</h3>
+          <p class="text-gray-400">
+            Blended seasonal fruits with yogurt or coconut milk – refreshing
+            and healthy.
+          </p>
+          <h3>$6.00</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<!-- Header -->
+<header class="bg-gray-800 text-white text-center py-6">
+  <h1 class="text-4xl font-bold">Indian Restaurant</h1>
+  <p class="text-lg mt-2">Fresh • Tasty • Fast</p>
+</header>
+
+<!-- Menu Section -->
+<section id="menu" class="p-6">
+  <h2 class="text-2xl font-bold mb-4">Our Menu</h2>
+
+  <div class="space-y-6">
+    <div class="border-b pb-4">
+      <h3 class="text-xl font-semibold">Savor Indian</h3>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/024/058/587/non_2x/savor-the-aroma-and-flavor-of-india-with-biryani-a-delicious-dish-served-steamy-against-a-dark-background-ai-generated-free-photo.jpg"
+        alt="Savor Indian Dish" class="w-52 mt-2 rounded shadow" />
+      <p class="mt-2">$8.99 - Served with fresh vegetables and rice.</p>
+    </div>
+
+    <div class="border-b pb-4">
+      <h3 class="text-xl font-semibold">Fried Chicken</h3>
+      <img src="https://as2.ftcdn.net/jpg/03/13/35/73/1000_F_313357375_eI3nubCLdKLGOIbgNU6oDurVWg0u7j4b.jpg"
+        alt="Fried Chicken Dish" class="w-52 mt-2 rounded shadow" />
+      <p class="mt-2">$6.50 - Juicy beef patty with cheese and fries.</p>
+    </div>
+
+    <div class="border-b pb-4">
+      <h3 class="text-xl font-semibold">Vegetarian Pasta</h3>
+      <img src="https://www.shutterstock.com/image-photo/pasta-spaghetti-tomato-sauce-black-260nw-1882639360.jpg"
+        alt="Vegetarian Pasta Dish" class="w-52 mt-2 rounded shadow" />
+      <p class="mt-2">$7.25 - Pasta with mixed veggies and tomato sauce.</p>
+    </div>
+  </div>
+  <section id="about" class="py-16 px-6 bg-gray-800">
+  <div class="max-w-4xl mx-auto text-center">
+    <h1 class="text-4xl md:text-2xl font-extrabold text-white mb-4">Delicious Pizza</h1>
+    <p class="text-lg md:text-xl text-gray-300 mb-6">Crafted with love, served with flavor.</p>
+    <a href="#menu" class="bg-amber-200 text-gray-900 px-4 py-3 rounded-full font-semibold hover:bg-amber-300 transition">View Menu</a>
+
+  </div>
+</section>
+<!-- 3. Menu Highlights -->
+<section id="menu" class="py-16 px-6 bg-gray-900">
+  <div class="max-w-1xl mx-auto text-life "> 
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+      <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/30504707/pexels-photo-30504707.jpeg" alt="Pizza" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h2>$12.00</h2>
+      </div>
+      <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/1788852/pexels-photo-1788852.jpeg" alt="Coffee" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$18.00>
+      </div>
+      <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$15.00
+      </div>
+       <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/3761671/pexels-photo-3761671.jpeg" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$20.00</h3>
+      </div>
+       <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        
+        <img src="https://images.pexels.com/photos/20300403/pexels-photo-20300403.jpeg" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$25.00</h3>
+      </div>
+
+       <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://media.istockphoto.com/id/1150379827/photo/pepperoni-pizza-on-plate.jpg?s=2048x2048&w=is&k=20&c=uA1b04Amorc0-JT8M1iFPvLC7ax5Z5-SpvxwzlRUIPc=" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$10.00</h3>
+      </div>
+       <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://media.istockphoto.com/id/1444740350/photo/pepperoni-italian-pizza-with-salami-and-cheese.jpg?s=2048x2048&w=is&k=20&c=niMPS75PUqMl7aXvdFVchQvPf6C_VqiF06aCBEtQTuM=" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$30.00</h3>
+      </div>
+       <div class="bg-gray-800 rounded-xl p-5 shadow hover:shadow-lg transition">
+        <img src="https://media.istockphoto.com/id/1150475207/photo/pizza-with-meat-and-barbecue-sauce.jpg?s=2048x2048&w=is&k=20&c=YeYTHUOQtED9ttyQbrXfoTvT5CPqBITiHcd6iIlCKmg=" alt="Burger" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Classic Pepperoni Pizza</h3>
+        <p class="text-gray-400">Topped with premium pepperoni and gooey mozzarella cheese.</p>
+        <h3>$22.00</h3>
+      </div>
+    </div>
+  </div>
+ <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4 mt-6">
+    <p>&copy; 2025 Delicious Bites Restaurant</p>
+  </footer>
+  <!-- 4. About Us -->
+  <section id="about" class="py-16 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-6">About Us</h2>
+      <p class="text-gray-300 text-lg">
+        Brew & Bite is a cozy food spot where pizza meets passion and coffee
+        kicks in creativity. Locally sourced ingredients and homemade sauces —
+        we're obsessed with flavor and friendliness!
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. Specials -->
+  <section id="specials" class="py-16 px-6 bg-gray-900">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-6">
+        🔥 Today's Specials
+      </h2>
+      <p class="text-gray-300 mb-6">
+        Get 20% off on all pizzas before 2 PM. Free cookie with any coffee!
+      </p>
+      <a href="#order"
+        class="bg-amber-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-amber-300 transition">Claim
+        Offer</a>
+    </div>
+  </section>
+
+  <!-- 6. Contact -->
+  <section id="contact" class="py-16 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-400 mb-6">📍 Location></h2>
+      <p class="text-gray-300 mb-4">Wat Bo, Foodtown, Sime Reap</p>
+      <p class="text-gray-300 mb-4">Open Daily: 8AM – 10PM</p>
+      <p class="text-gray-300">
+        Call us:
+        <a href="tel:+855-(17-48-76-30)" class="text-amber-300 hover:underline">+855-(17-48-76-30)</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 7. Footer -->
+  <footer class="bg-gray-900 py-8 text-center border-t border-gray-700">
+    <div class="mt-2 space-x-4">
+      <a href="https://www.facebook.com/DialogueSiemReap" class="text-amber-400 hover:underline">Facebook</a>
+      <a href="https://www.instagram.com/dialoguesiemreap/" class="text-amber-400 hover:underline">Instagram</a>
+      <a href="https://www.tiktok.com/@dialoguesiemreap?_t=ZS-8xDkBDvSPJw&_r=1"
+        class="text-amber-400 hover:underline">TikTok</a>
+    </div>
+    
+  </footer>
+</body>
+
+</html>
